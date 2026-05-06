@@ -3,6 +3,8 @@ package dbenclib
 import (
 	"context"
 
+	"C"
+
 	config "github.com/lanwenhong/lgobase/gconfig"
 )
 
@@ -12,6 +14,12 @@ type DbConf struct {
 	DbConfFileBuf string
 }
 
-func DbConfNew(context.Context, string) *DbConf
-func (dbc *DbConf) DbConfReadGroup(string) map[string]string
-func (dbc *DbConf) DbConfReadGroupWithCtx(ctx context.Context, group string) map[string]string
+func DbConfNew(context.Context, string) *DbConf {
+	return nil
+}
+func (dbc *DbConf) DbConfReadGroup(string) map[string]string {
+	return nil
+}
+func (dbc *DbConf) DbConfReadGroupWithCtx(ctx context.Context, group string) map[string]string {
+	return nil
+}

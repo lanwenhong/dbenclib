@@ -1,4 +1,4 @@
-module dbenclib
+module github.com/lanwenhong/dbenclib
 
 go 1.25.0
 
